@@ -1,0 +1,63 @@
+#TItulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+}
+
+#Identidade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Nome {
+    margin: 10px;
+    height: 50px;
+    width: 400px;
+    border: 2px solid red;
+}
+
+#idade {
+    margin: 10px;
+    height: 50px;
+    width: 100px;
+    border: 2px solid red;
+}
+
+#Dinheiro {
+    margin: 10px;
+    height: 100px;
+    width: 90px;
+    border: 2px solid red;
+}
+
+#btnCriar {
+    margin: 10px;
+    height: 90px;
+    width: 100px;
+    color: chocolate;
+    background-color: blueviolet;
+}
+
+#Caixa {
+    margin: 10px 0px 0px 0px;
+    width: 200px;
+    border: 1px solid blueviolet;
+}
+
+Caixa::backdrop {
+    background-color: black;
+}
+
+#btn-fechar {
+    margin: 0px 0px 0px 150px;
+    height: 70px;
+    width: 60px;
+    color: cadetblue;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    border-color: blueviolet;
+}
